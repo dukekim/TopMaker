@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="5.0" package="org.hellmaker.petcpr" version="1.0.0">
+    <profile name="iot-headless"/>
+    <service-application appid="org.hellmaker.petcpr" auto-restart="false" exec="hellmakerpetcpr" multiple="false" nodisplay="true" on-boot="false" taskmanage="false" type="capp">
+        <label>hellmakerpetcpr</label>
+        <icon>hellmakerpetcpr.png</icon>
+    </service-application>
+    <privileges>
+        <privilege>http://tizen.org/privilege/peripheralio</privilege>
+    </privileges>
+</manifest>
